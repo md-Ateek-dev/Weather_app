@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport"
+  content="width=device-width, initial-scale=1">
+ <title></title>
+ 
+ <style>
+  *{
+   margin: 0px ;
+   padding: 0px ;
+   box-sizing: border-box ;
+   
+  }
+  
+  
+  body{
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+align-items: center ;
+
+   background-size: cover;
+  }
+  
+  
+  .container {
+   height: 500px ;
+   width: 500px;
+   border-radius: 10px;
+ background-color: whitesmoke ;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9)
+
+
+   
+  }
+  .container h1{
+   text-align: Center ;
+  }
+  
+  input{
+   height: 50px;
+   width: 300px ;
+   margin-top:20%;
+   font-size: 20px ;
+   border-radius: 5px ;
+  
+  }
+  
+  #btn{
+   height: 50px;
+   width:150px;
+   background-color: royalblue;
+   border-radius: 5px ;
+   border: none;
+   font-size:20px ;
+   
+  }
+  h1{
+   margin-top:50px ;
+  }
+  
+  
+  #Details{
+   margin-top:50px ;
+  }
+.Weather-app{
+width="100%";
+text-align: center;
+}
+span{
+ font-size:25px ;
+ 
+}
+
+p{
+ margin-top:20px ;
+}
+ </style>
+</head>
+
+<body>
+<div class="container">
+
+ <h1>Weather app</h1>
+ <div class="Weather-app">
+  
+ <input type="text" placeholder="Enter City Name" id="cityInput">
+ <button id="btn" onclick="getWeatherdata()">Get Weather </button>
+
+ 
+ <div id="Details">
+  
+  
+  
+ </div>
+ </div>
+</div>
+
+
+
+<script src="/Javascript11/app.js"></script>
+</body>
+
+</html>
